@@ -1,0 +1,148 @@
+/******************************************
+/* CSS
+/*******************************************/
+.hidden{
+  display:none;
+}
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: maroon;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.column{
+  display:flex;
+  flex-flow:column wrap;
+  justify-content:center;
+  align-content: center;
+  text-align: center;
+  
+}
+input{
+  width:350px;
+  text-align: right;
+}
+
+
+/******************************************
+/* header
+/*******************************************/
+header{
+ display:flex;
+ flex-flow: row nowrap;
+ justify-content:space-between;
+}
+h1{
+  font-size: 60px;
+  font: bold;
+  color: #D4AF37;
+}
+h2{
+  font-size: 40px;
+  font: bold;
+  color: #D4AF37;
+}
+
+.container{
+  display:flex;
+  flex-flow:column wrap;
+  justify-content: space-between;
+ 
+}
+.helper{
+  width:250px;
+  height:250px;
+  margin:50px auto;
+  border-radius: 100%;
+  border:5px solid gold;
+}
+.help{
+  color:white;
+  width:33%;
+}
+
+label{
+  color:white;
+}
+
+
+/******************************************
+/* main section
+/*******************************************/
+main{
+  display:flex;
+  width:980px;
+  height:600px;
+  margin:50px 0;
+  border:2px solid black;
+}
+
+.mains{
+  display:flex;
+  height:inherit;
+  width:50%;
+  border:2px solid black;
+}
+.animeName{
+  font-size:25px;
+  margin-top: -10px;
+}
+span{
+  font-size:20px;
+  color:white;
+}
+
+.anime{
+  height:200px;
+  width:200px;
+  border-radius:100%;
+  border:5px solid blue
+  
+}
+.similar {
+  font-size:30px;
+  font-weight: bold;
+}
+.config{
+  display:flex;
+  flex-flow:column wrap;
+  justify-content: space-between;
+  align-content:center;
+}
+section{
+  padding-left:20px;
+  padding-bottom: 20px;;
+}
+
+.animeVideo{
+  width:300px;
+  height:400px;
+  margin-bottom: 25px;
+}
+
+
+/******************************************
+/* buttons for carouel
+/*******************************************/
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+/******************************************
+/* customer input section/drinks event
+/*******************************************/
+
+@media all and (max-width: 1081px) {
+  .config{
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: space-around;
+    align-content:center;
+    text-align: center;
+  }
+}
